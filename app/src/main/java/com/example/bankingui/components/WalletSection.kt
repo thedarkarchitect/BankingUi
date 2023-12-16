@@ -49,19 +49,19 @@ fun WalletSection() {
                 color = MaterialTheme.colorScheme.onBackground
             )
 
-            Box(
-                  modifier = Modifier
-                      .clip(RoundedCornerShape(15.dp))
-                      .background(MaterialTheme.colorScheme.secondaryContainer)
-                      .clickable {  }
-                      .padding(6.dp)
-            ){
-                Icon(
-                    imageVector = Icons.Rounded.Search,
-                    contentDescription = "Search",
-                    tint = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-            }
+        }
+        Box(
+            modifier = Modifier
+                .clip(RoundedCornerShape(15.dp))
+                .background(MaterialTheme.colorScheme.secondaryContainer)
+                .clickable {  }
+                .padding(6.dp)
+        ){
+            Icon(
+                imageVector = Icons.Rounded.Search,
+                contentDescription = "Search",
+                tint = MaterialTheme.colorScheme.onSecondaryContainer
+            )
         }
     }
 }
